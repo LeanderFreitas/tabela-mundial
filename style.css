@@ -13,23 +13,4 @@ body{
 main{
    background-color: aliceblue;
    text-align: center;
-}h1 {
-    color: black;
-}
-p{
-    color: black;
-}
-strong{
-    font-size: 1em;
-}
-table{
-    width: 400px;
-    border-collapse: collapse;
-}
-tr{
-    
-}
-td{
-    border: 1px solid black;
-    padding: 8px;
 }
