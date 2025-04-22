@@ -3,22 +3,36 @@
     padding: 0px;
 }
 body{
+   
+}
+main{
+   
+    }
+main.conteudo{
+background-color:white;
+}
+nav{ 
     height: 98vh;
-    background-image:url(imagem\ de\ mundo.webp); 
+    background-image:url(imagens/imagem\ de\ mundo.webp); 
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
-main{
-   background-color: aliceblue;
-   text-align: center;
+    background-color: white;
+    text-align: center;
+    height: 2000px;
+    border: solid 2px black;
 }
 h1 {
-    color: black;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
-p{
-    color: black;
+p{                      
+    font-size: 1.2em;
+    background-color: rgb(250, 255, 250);
+    color: rgb(0, 0, 0);
+    padding-bottom: 10px;
 }
 strong{
     font-size: 1em;
@@ -30,16 +44,44 @@ main{
     text-align: center;
 }
 table{
+    background-color: white;
+    margin-left: 780px;
+    margin-top: 50px;
     width: 400px;
     border-collapse: collapse; 
 }
 tr{
-
 }
 td{
     border: 1px solid black;
     padding: 8px;
 }
-img{
+.numeros{
+    width:20px ;
+    height:30px ;
+}
+table #cinza{
+    background-color: rgba(100, 100, 100, 0.719);
+}
+.imagem1{
+
+}
+.imagem2{
     
+}
+footer{
+    color: white;
+    background-color: black;
+    padding: 7px;
+}
+footer > p{
+    color: white;
+    text-align: center;
+}
+footer > a{
+    text-decoration: none;
+    color: white;
+}
+footer> a:hover{
+    color:white;
 }
