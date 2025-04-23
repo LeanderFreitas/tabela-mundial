@@ -2,16 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-   
+@media (min-width:769px) and (max-width:1024px) {
+    
 }
 main{
-   
-    }
-main.conteudo{
-background-color:white;
-}
-nav{ 
     height: 98vh;
     background-image:url(imagens/imagem\ de\ mundo.webp); 
     background-position: center center;
@@ -19,16 +13,21 @@ nav{
     background-size: cover;
     background-attachment: fixed;
     background-color: white;
+     height: 1300px;
+    }
+main.conteudo{
+    background-color:white;
+}
+nav{ 
     text-align: center;
-    height: 2000px;
-    border: solid 2px black;
+
 }
 h1 {
     padding: 10px;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
 }
-p{                      
+p.navbar{                      
     font-size: 1.2em;
     background-color: rgb(250, 255, 250);
     color: rgb(0, 0, 0);
@@ -49,6 +48,7 @@ table{
     margin-top: 50px;
     width: 400px;
     border-collapse: collapse; 
+    margin-top: 0px;
 }
 tr{
 }
@@ -64,24 +64,33 @@ table #cinza{
     background-color: rgba(100, 100, 100, 0.719);
 }
 .imagem1{
-
-}
-.imagem2{
+    position: absolute;
     
+    left: 181px;
+    right: 0px;
+    top: 280px;
+}
+.imagem2{ 
+    position: absolute;
+    top: 280px;   
+    left: 1280px;
 }
 footer{
-    color: white;
-    background-color: black;
-    padding: 7px;
+    background-color: rgb(255, 255, 255);
+    padding: 2px 2px 2px 2px;
+    font-size: 1.1em;
 }
 footer > p{
-    color: white;
+
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 footer > a{
     text-decoration: none;
-    color: white;
 }
-footer> a:hover{
+footer a:hover{
     color:white;
+    border: solid 2px rgb(0, 0, 0);
+    background-color: black;
+    border-radius: 10%;
 }
