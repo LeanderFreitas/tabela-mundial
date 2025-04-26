@@ -70,7 +70,6 @@ main{
 table{
     display: flex;
     justify-content:center;
-   
     background-color: white;
     width: 400px;
     border-collapse: collapse;   
