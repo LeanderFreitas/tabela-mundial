@@ -3,19 +3,32 @@
     padding: 0px;
 }
 @media (min-width:769px) and (max-width:1024px) {
-    {
-
+     
+     nav{ 
+         width: 97%;
+    }
+    section.imagens{
+        flex-direction: column;
+    }
+    .imagem1{
+       width: 300px;
+       height: 300px;
+    }
+    .imagem2{
+       width: 400px;
+       height: 500px;
+    }   
+    main.table{
+        width: 300px;
     }
 }
 @media (max-width:768px) {
-    {
-
-    }
+   
 }
 
 @media (max-width:320px) {
      {
-
+        width: 90%;
     }
 }
 main{
@@ -26,7 +39,7 @@ main{
     background-size: cover;
     background-attachment: fixed;
     background-color: white;
-     height: 1300px;
+    height: 1300px;
     }
 main.conteudo{
     background-color:white;
@@ -55,14 +68,12 @@ main{
     text-align: center;
 }
 table{
-    position: absolute;
-    top:148px;
+    display: flex;
+    justify-content:center;
+   
     background-color: white;
-    margin-left: 780px;
-    margin-top: 50px;
     width: 400px;
-    border-collapse: collapse; 
-    margin-top: 0px;
+    border-collapse: collapse;   
 }
 
 td{
@@ -76,17 +87,19 @@ td{
 table #cinza{
     background-color: rgba(100, 100, 100, 0.719);
 }
-.imagem1{
-    position: absolute;
-    
-    left: 181px;
-    right: 0px;
-    top: 280px;
+section.imagens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
 }
-.imagem2{ 
-    position: absolute;
-    top: 280px;   
-    left: 1280px;
+.imagem1{
+    padding-left: 180px;
+    padding-top: 90px;
+}
+.imagem2{
+    padding-right:30px;;
+    padding-top:90px;
 }
 footer{
     background-color: rgb(255, 255, 255);
