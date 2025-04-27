@@ -43,7 +43,6 @@
        width: 300px;
     }
 }    
-
 @media (max-width:320px) {
      nav {
         padding-left: 20px;
@@ -73,13 +72,14 @@ main.conteudo{
 }
 nav{ 
     text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
 }
 h1 {
     padding: 10px;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.596);
 }
-p.navbar{    
+p.navbar{       
     padding-top: 10px;                    
     font-size: 1.2em;
     color: rgb(0, 0, 0);
@@ -112,7 +112,7 @@ table #cinza{
     background-color: rgba(100, 100, 100, 0.719);
 }
 section.imagens{
-    display: flex;
+    vertical-align: center;
 }
 .imagem1{
     padding-left: 180px;
@@ -123,20 +123,21 @@ section.imagens{
     padding-top:90px;
 }
 footer{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.596);
     padding: 2px 2px 2px 2px;
     font-size: 1.1em;
 }
 footer > p{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
-footer > a{
+footer a{
     text-decoration: none;
+    color: white;
 }
 footer a:hover{
     color:white;
-    border: solid 2px rgb(0, 0, 0);
-    background-color: black;
+    border: solid 2px rgba(0, 0, 0, 0.322);;
+    background-color:rgba(0, 0, 0, 0.596);;
     border-radius: 10%;
-}
+}   
