@@ -27,9 +27,18 @@
 }
 
 @media (max-width:320px) {
-     {
-        width: 90%;
+     nav {
+        padding-left: 10px;
+        padding-right: 10px;     
     }
+    .imagem1{
+        width: 100px;
+        height: 100px;
+     }
+     .imagem2{
+        width: 100px;
+        height: 100px;
+     }   
 }
 main{
     height: 98vh;
@@ -46,7 +55,6 @@ main.conteudo{
 }
 nav{ 
     text-align: center;
-
 }
 h1 {
     padding: 10px;
@@ -95,6 +103,7 @@ section.imagens{
 .imagem1{
     padding-left: 180px;
     padding-top: 90px;
+    border: solid 1px black;
 }
 .imagem2{
     padding-right:30px;;
