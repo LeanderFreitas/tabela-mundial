@@ -9,7 +9,8 @@
          padding-left: 20px;
     }
     section.imagens{
-        
+        display: flex;
+        text-align: top;
     }
     .imagem1{
        width: 300px;
