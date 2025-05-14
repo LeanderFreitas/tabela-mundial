@@ -65,7 +65,9 @@ main{
     background-size: cover;
     background-attachment: fixed;
     background-color: white;
-    height: 1800px;
+    height: 1450px;
+    text-align: center;
+    padding-top: 100px;
     }
 main.conteudo{
     background-color:white;
@@ -91,10 +93,7 @@ strong{
 strong.destaque {
     color: rgba(0, 0, 255, 0.788);
 }
-main{
-    text-align: center;
-}
-table{
+table{ 
     margin-left: 750px;
     background-color: white;
     width: 400px;
@@ -112,15 +111,22 @@ table #cinza{
     background-color: rgba(100, 100, 100, 0.719);
 }
 section.imagens{
+    position: absolute;
     vertical-align: center;
+    display: flex;
+    flex-direction:column;
 }
 .imagem1{
-    padding-left: 180px;
-    padding-top: 90px;  
+    padding-left: 100px;
+    padding-top: 0px;
+    padding-right: 0px
 }
 .imagem2{
     padding-right:30px;;
     padding-top:90px;
+    padding-left: 40px;
+    margin-top: -20;
+    margin-bottom: 20px;
 }
 footer{
     background-color: rgba(0, 0, 0, 0.596);
